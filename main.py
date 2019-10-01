@@ -13,7 +13,7 @@ def function_1():
         win2 = tk.Tk()
         win2.geometry("450x300") #the size of window
         win2.title("Result")
-        txt = tk.Text(win2,height=5) 
+        txt = tk.Text(win2,height=25) 
         txt.pack()
         try : 
             #connect to wolframalpha             
