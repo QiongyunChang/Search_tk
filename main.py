@@ -1,4 +1,4 @@
-#___________________2019/10/1__________________#
+#___________________2019/10/02__________________#
 #Frame: Tkinter                                #
 #Function module using: wolframalpha wikipedia #
 #Author:  Qiongyun Zhang                       #
@@ -11,9 +11,9 @@ import wikipedia
 def function_1():
         #the second window   
         win2 = tk.Tk()
-        win2.geometry("450x300") #the size of window
+        win2.geometry("650x300") #the size of window
         win2.title("Result")
-        txt = tk.Text(win2,height=25) 
+        txt = tk.Text(win2,height=25,font=18) 
         txt.pack()
         try : 
             #connect to wolframalpha             
@@ -35,12 +35,12 @@ def function_1():
 #build the windows       
 win = tk.Tk() 
 #win.configure(background='SlateGray')
-win.geometry("450x100")
+win.geometry("500x150")
 win.title("Search")
 #msg for button
 #info for entry 
 #word color = white ,fg='white',bg='SlateGray'
-label = tk.Label(win,text = "Searching ").pack()
+label = tk.Label(win,text = "Searching ",font=14).pack()
 estr = tk.StringVar()
 entry = tk.Entry(win,text= estr).pack()
 
