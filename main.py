@@ -1,7 +1,7 @@
-#___________________2019/10/02__________________#
+#___________________2019/10/02_________________#
 #Frame: Tkinter                                #
 #Function module using: wolframalpha wikipedia #
-#Author:  Qiongyun Zhang                       #
+# Qiongyun Zhang                               #
 #______________________________________________#
 
 import tkinter as tk
