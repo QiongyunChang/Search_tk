@@ -1,9 +1,9 @@
-#___________________2019/10/02_________________#
-#Frame: Tkinter                                #
-#Function module using: wolframalpha wikipedia #
-# Qiongyun Zhang                               #
-#______________________________________________#
-
+'''
+2019/10/02
+Frame: Tkinter                                
+Function module using: wolframalpha wikipedia 
+Qiongyun Zhang                               
+'''
 import tkinter as tk
 import wolframalpha 
 import wikipedia
